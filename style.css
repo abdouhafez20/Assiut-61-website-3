@@ -158,6 +158,22 @@ html, body {
   align-items: center;
   gap: .1em;
 }
+#telegramBtn {
+  background-color: #0088cc;
+  color: white;
+  padding: 0.6em 1.5em;
+  border: none;
+  border-radius: 999px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.2s, transform 0.2s;
+}
+#telegramBtn:hover {
+  background-color: #007ab8;
+  transform: scale(1.03);
+}
 .telegram-note {
   font-size: .98em;
   color: #aaa;
