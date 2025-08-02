@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Graduation Frame – Batch 61 – Faculty of Medicine, Assiut University</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='black' d='M12 3L1 9l11 6 9-4.91V17h2V9zm0 13c-2.67 0-8 1.34-8 4v1h16v-1c0-2.66-5.33-4-8-4z'/></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="cap-icon" aria-label="Graduation cap">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 3L1 9l11 6 9-4.91V17h2V9zm0 13c-2.67 0-8 1.34-8 4v1h16v-1c0-2.66-5.33-4-8-4z" fill="currentColor"/></svg>
+      </span>
+      <h1>
+        Graduation Frame – Batch 61<br>Faculty of Medicine, Assiut University
+      </h1>
+      <span class="cap-icon" aria-label="Graduation cap">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M12 3L1 9l11 6 9-4.91V17h2V9zm0 13c-2.67 0-8 1.34-8 4v1h16v-1c0-2.66-5.33-4-8-4z" fill="currentColor"/></svg>
+      </span>
+    </header>
+
+    <main>
+      <div class="controls">
+        <label class="upload-btn">
+          <input type="file" accept="image/*" id="photoInput" hidden>
+          <span>Upload your photo</span>
+        </label>
+      </div>
+
+      <div class="editing-area">
+        <div class="canvas-container" id="canvasContainer">
+          <canvas id="editorCanvas" tabindex="0" aria-label="Image editing area"></canvas>
+          <img id="frameOverlay" src="frame.png" alt="Graduation frame overlay" draggable="false">
+        </div>
+      </div>
+
+      <div class="bottom-buttons">
+        <button id="downloadBtn">Download</button>
+        <button id="resetBtn" class="secondary">Reset</button>
+      </div>
+
+      <div class="telegram-section">
+        <button id="telegramBtn">Telegram bot</button>
+        <div class="telegram-note">Automatically makes your frame</div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <a href="https://t.me/Abdomahmood" class="support-btn" target="_blank">Support</a>
+    <span class="designer-credit">website by Abduurahman Mahmoud</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
