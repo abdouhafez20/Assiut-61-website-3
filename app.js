@@ -248,7 +248,7 @@ downloadBtn.addEventListener('click', async () => {
     n.src = frameOverlay.src;
     n.onload = () => {
       try {
-        i.globalAlpha = 0.7;
+        i.globalAlpha = 1;
         i.drawImage(n, 0, 0, e, e);
         i.globalAlpha = 1;
         t.toBlob(blob => {
