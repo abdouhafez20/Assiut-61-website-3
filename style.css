@@ -1,6 +1,6 @@
 :root {
-  --main-bg: #181c20;
-  --container-bg: #223f66;
+  --main-bg: #223f66;
+  --container-bg: #181c20;
   --accent: #1a237e;
   --frame-bg: #f1f1f1;
   --text: #f1f1f1;
@@ -66,7 +66,7 @@ html, body {
   padding: .2em .6em;
   border-radius: 8px;
   border: 1px solid #bbb;
-  font-size: .97em;
+  font-size: .9em;
   background: #fff;
   color: #333;
 }
