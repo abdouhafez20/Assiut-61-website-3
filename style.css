@@ -28,15 +28,15 @@ html, body {
   box-shadow: 0 4px 32px #000A;
 }
 .cap-icon {
-  margin: 0 6px;
+  margin: 5em 10em;
   vertical-align: middle;
 }
 .usage-hint {
-  background: rgba(26,35,126,.1);
+  background: rgba(155,155,155,.2);
   padding: .7em 1em;
   border-radius: var(--border-radius);
   margin: .7em 0 1.1em 0;
-  font-size: .9em;
+  font-size: .85em;
 }
 .controls {
   display: flex;
